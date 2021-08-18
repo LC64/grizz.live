@@ -180,8 +180,8 @@ h1, h2, h3, h4, h5, h6 {
  position: sticky;
  top: 0;
  z-index: 2;
- background: rgba(242,201,147,0.5);
- transition: 0.8s ease-in;
+ background: rgba(141, 116, 84, 0.6);
+ transition: 0.5s ease-in;
 }
 
 #main-nav .container {
@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #showcase .showcase-content {
- z-index: 1;
+ z-index: 2;
 }
 
 #showcase .showcase-content p {
