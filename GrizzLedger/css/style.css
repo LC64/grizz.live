@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background: #fff;
+  background: #f4d4aa;
   color: #333;
   line-height: 1.6;
 }
@@ -41,7 +41,7 @@ img {
   align-items: center;
   justify-content: space-between;
   background-color: #333;
-  color: #fff;
+  color: #fdf6ee;
   opacity: 0.8;
   width: 100%;
   /* this is common height for a navbar */
@@ -53,11 +53,11 @@ img {
 }
 
 .navbar a:hover {
-  border-bottom: #28a745 2px solid;
+  border-bottom: #c72727 2px solid;
 }
 
 .navbar a {
-  color: #fff;
+  color: #fdf6ee;
   padding: 10px 20px;
   margin: 0 5px;
 }
@@ -79,7 +79,7 @@ img {
   background: url('../images/dog/grizz.wet.jpg') no-repeat center center/cover;
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: #fdf6ee;
 }
 
 .hero .content {
@@ -132,8 +132,8 @@ img {
 }
 
 .icons i {
-  background-color: #28a745;
-  color: #fff;
+  background-color: #c72727;
+  color: #f4d4aa;
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 15px;
@@ -177,11 +177,11 @@ img {
   width: 100%;
   padding: 4px;
   height: 40px;
-  border: #f5f5f5 1px solid;
+  border: #fdf6ee 1px solid;
 }
 
 .callback-form input:focus {
-  outline-color: #28a745;
+  outline-color: #c72727;
 }
 
 .callback-form btn {
@@ -224,11 +224,11 @@ img {
 }
 
 .footer a {
-  color: #fff;
+  color: #fdf6ee;
 }
 
 .footer a:hover {
-  color: #28a745;
+  color: #c72727;
 }
 
 .footer .social > * {
@@ -265,7 +265,7 @@ img {
     background: url('../images/dog/grizz.jpg') no-repeat center center/cover;
     height: 100vh;
     position: relative;
-    color: #fff;
+    color: #fdf6ee;
   }
   
 }

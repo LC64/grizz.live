@@ -1,10 +1,10 @@
 /* Text Colors */
 .text-primary {
-  color: #28a745;
+  color: #f4d4aa;
 }
 
 .text-secondary {
-  color: #0284d0;
+  color: #c72727;
 }
 
 /* Button */
@@ -12,8 +12,8 @@
   cursor: pointer;
   display: inline-block;
   padding: 10px 30px;
-  color: #fff;
-  background-color: #28a745;
+  color: #fdf6ee;
+  background-color: #c72727;
   border: none;
   border-radius: 5px;
 }
@@ -21,22 +21,22 @@
 .btn:hover {
   opacity: 0.9;
   color: #333;
-  background: #fff;
+  background: #fdf6ee;
 }
 
 .btn-primary, .bg-primary {
-  background-color: #28a745;
-  color: #fff;
+  background-color: #f4d4aa;
+  color: #fdf6ee;
 }
 
 .btn-secondary, .bg-secondary {
-  background-color: #0284d0;
-  color: #fff;
+  background-color: #f99500;
+  color: #fdf6ee;
 }
 
 .btn-dark, .bg-dark {
   background-color: #333;
-  color: #fff;
+  color: #fdf6ee;
 }
 
 .btn-light, .bg-light {
@@ -46,7 +46,7 @@
 
 .btn-outline {
   background: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #fdf6ee;
 }
 
 .btn-darkoutline {
@@ -55,7 +55,7 @@
 }
 
 .btn-darkoutline:hover {
-  color: #fff;
+  color: #fdf6ee;
   background: #333;
 }
 
@@ -175,11 +175,11 @@
 }
 
 .text-primary {
-  color: #93cb52;
+  color: #c72727;
 }
 
 .bg-light {
-  background: #f4f4f4;
+  background: #fdf6ee;
   color: #333;
 }
 
@@ -189,7 +189,7 @@
 }
 
 .bg-primary {
-  background: #93cb52;
+  background: #c72727;
   color: #fff;
 }
 
@@ -221,14 +221,14 @@
 .btn {
   display: inline-block;
   color: #fff;
-  background: #93cb52;
+  background: #c72727;
   padding: 0.5rem 2rem;
   border: none;
   border-radius: 5px;
 }
 
 .btn:hover {
-  background: #7ab436;
+  background: #c72727;
 }
 
 .btn-dark {

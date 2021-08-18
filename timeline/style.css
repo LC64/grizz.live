@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #425b84;
-  --secondary-color: #5b7bb4;
+  --primary-color: #c2a988;
+  --secondary-color: #75654f;
   --max-width: 1100px;
 }
 
@@ -13,7 +13,7 @@
 body {
   font: normal 1rem/1.5 'Arial', sans-serif;
   background: var(--primary-color);
-  color: #fff;
+  color: #fdf6ee;
   overflow-x: hidden;
   padding-bottom: 50px;
 }
