@@ -466,6 +466,27 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8;
 }
 
+#apollo-fake-links {
+  color: var(--light-font);
+  background: #333;
+  padding: 2rem;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  font-size: 85px;
+}
+
+#apollo-fake-links::before {
+  content: '';
+  background: url(../img/dog/stardogs.png) center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
 #fake-links .fake-links-container {
   display: grid;
   justify-content: center;
@@ -477,3 +498,34 @@ h1, h2, h3, h4, h5, h6 {
  z-index: -0.8;
 }
 
+#apollo-fake-links {
+  color: var(--light-font);
+  background: #333;
+  padding: 2rem;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  font-size: 85px;
+}
+
+#apollo-fake-links::before {
+  content: '';
+  background: url(../img/dog/apollo.couch.jpg) center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+#apollo-fake-links .fake-links-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#apollo-fake-links .fake-links-content {
+ z-index: -0.8;
+}
