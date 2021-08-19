@@ -4,7 +4,7 @@
 }
 
 .text-secondary {
-  color: #c44b4b;
+  color: #f5a226;
 }
 
 /* Button */
@@ -12,8 +12,8 @@
   cursor: pointer;
   display: inline-block;
   padding: 10px 30px;
-  color: #fdf6ee;
-  background-color: #c44b4b;
+  color: #444 !important;
+  background-color: #f5a226 !important;
   border: none;
   border-radius: 5px;
 }
@@ -26,20 +26,20 @@
 
 .btn-primary,
 .bg-primary {
-  background-color: #f4f4f4;
-  color: #fdf6ee;
+  background-color: #f5a226;
+  color: #444;
 }
 
 .btn-secondary,
 .bg-secondary {
-  background-color: #85735b;
+  background-color: #c44b4b;
   color: #b9a589;
 }
 
 .btn-dark,
 .bg-dark {
-  background-color: #333;
-  color: #b9a589;
+  background-color: #333 !important;
+  color: #f4f4f4 !important;
 }
 
 .btn-dark:hover {
@@ -47,10 +47,13 @@
   color: #f4f4f4;
 }
 
-.btn-light,
+.btn-light {
+  background-color: #c44b4b !important;
+  color: #f4f4f4 !important;
+}
 .bg-light {
-  background-color: #b9a589;
-  color: #333;
+  background-color: #b9a589 !important;
+  color: #333 !important;
 }
 
 .btn-outline {

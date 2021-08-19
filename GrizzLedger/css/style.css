@@ -67,8 +67,9 @@ img {
   display: flex;
 }
 
-.navbar .logo {
-  font-weight: 400;
+#navbar img {
+  height: 50px;
+  width: 120px;
 }
 
 .navbar.top {
@@ -135,7 +136,7 @@ img {
 
 .icons i {
   background-color: #c44b4b;
-  color: black;
+  color: #333;
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 15px;
@@ -223,14 +224,15 @@ img {
   justify-content: center;
   text-align: center;
   height: 200px;
+  color: #b9a589 !important;
 }
 
 .footer a {
-  color: #fdf6ee;
+  color: #b9a589;
 }
 
 .footer a:hover {
-  color: #c44b4b;
+  color: #f5a226;
 }
 
 .footer .social > * {

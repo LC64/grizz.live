@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #c2a988;
-  --secondary-color: #75654f;
+  --primary-color: rgb(61, 93, 121);
+  --secondary-color: #6b7c9b;
   --max-width: 1100px;
 }
 
@@ -11,9 +11,9 @@
 }
 
 body {
-  font: normal 1rem/1.5 'Arial', sans-serif;
+  font: normal 1rem/1.5 "Arial", sans-serif;
   background: var(--primary-color);
-  color: #fdf6ee;
+  color: #fff;
   overflow-x: hidden;
   padding-bottom: 50px;
 }
@@ -58,6 +58,7 @@ h1 {
   transition: all 0.5s ease-in-out;
   visibility: hidden;
   opacity: 0;
+  border-radius: 9px;
 }
 
 /* Right Side */
@@ -74,7 +75,7 @@ h1 {
 
 /* Dots */
 #timeline ul li:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -88,7 +89,7 @@ h1 {
 
 /* Arrows Base */
 #timeline div:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 5px;
   width: 0;
@@ -121,8 +122,7 @@ h1 {
   background: var(--secondary-color);
 }
 
-
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   #timeline ul li div {
     width: 250px;
   }
@@ -132,7 +132,7 @@ h1 {
   }
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   #timeline ul li {
     margin-left: 20px;
   }
@@ -150,7 +150,4 @@ h1 {
     border-width: 8px 16px 8px 0;
     border-color: transparent var(--secondary-color) transparent transparent;
   }
-
-  
 }
-
