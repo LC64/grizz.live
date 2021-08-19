@@ -1,10 +1,10 @@
 /* Text Colors */
 .text-primary {
-  color: #f4d4aa;
+  color: #f4f4f4;
 }
 
 .text-secondary {
-  color: #c72727;
+  color: #c44b4b;
 }
 
 /* Button */
@@ -13,7 +13,7 @@
   display: inline-block;
   padding: 10px 30px;
   color: #fdf6ee;
-  background-color: #c72727;
+  background-color: #c44b4b;
   border: none;
   border-radius: 5px;
 }
@@ -24,23 +24,32 @@
   background: #fdf6ee;
 }
 
-.btn-primary, .bg-primary {
-  background-color: #f4d4aa;
-  color: #fdf6ee;
-}
-
-.btn-secondary, .bg-secondary {
-  background-color: #85735b;
-  color: #fdf6ee;
-}
-
-.btn-dark, .bg-dark {
-  background-color: #333;
-  color: #fdf6ee;
-}
-
-.btn-light, .bg-light {
+.btn-primary,
+.bg-primary {
   background-color: #f4f4f4;
+  color: #fdf6ee;
+}
+
+.btn-secondary,
+.bg-secondary {
+  background-color: #85735b;
+  color: #b9a589;
+}
+
+.btn-dark,
+.bg-dark {
+  background-color: #333;
+  color: #b9a589;
+}
+
+.btn-dark:hover {
+  background-color: #333 !important;
+  color: #f4f4f4;
+}
+
+.btn-light,
+.bg-light {
+  background-color: #b9a589;
   color: #333;
 }
 
@@ -156,10 +165,9 @@
 }
 
 .flex-grid .column {
-  flex:25%;
+  flex: 25%;
   max-width: 100%;
   padding: 0 4px;
- 
 }
 
 /* Copied over from Udemy finished project. Could be conflicting with my CSS above */
@@ -171,15 +179,15 @@
 }
 
 .text-center {
-  text-align:center;
+  text-align: center;
 }
 
 .text-primary {
-  color: #c72727;
+  color: #c44b4b;
 }
 
 .bg-light {
-  background: #fdf6ee;
+  background: #b9a589;
   color: #333;
 }
 
@@ -189,7 +197,7 @@
 }
 
 .bg-primary {
-  background: #c72727;
+  background: #c44b4b;
   color: #fff;
 }
 
@@ -210,25 +218,37 @@
   margin-bottom: 2rem;
 }
 
-.py-1 { padding: 1.5rem 0; }
-.py-2 { padding: 2rem 0; }
-.py-3 { padding: 3rem 0; }
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
 
-.p-1 { padding: 1.5rem; }
-.p-2 { padding: 2rem; }
-.p-3 { padding: 3rem; }
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
 
 .btn {
   display: inline-block;
   color: #fff;
-  background: #c72727;
+  background: #c44b4b;
   padding: 0.5rem 2rem;
   border: none;
   border-radius: 5px;
 }
 
 .btn:hover {
-  background: #c72727;
+  background: #c44b4b;
 }
 
 .btn-dark {
