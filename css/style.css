@@ -235,28 +235,24 @@ h6 {
 #main-nav ul li a {
   padding: 0.75rem;
   font-weight: bold;
-  border-radius: 40px;
-  background: #e9cda8;
+  color: black;
 }
 
 #main-nav ul li a.current {
-  background: var(--primary-color);
-  color: var(--light-font);
-  border-radius: 40px;
+  border-bottom: var(--primary-color) 2px solid;
+  color: black;
 }
 
 #main-nav ul li a.current:hover {
-  background: var(--primary-color);
-  color: #333;
-  border-radius: 40px;
-  opacity: 0.9;
+  border-bottom: var(--secondary-color) 2px solid;
+  color: var(--primary-color);
+  opacity: 0.8;
 }
 
 #main-nav ul li a:hover {
-  opacity: 0.9;
-  /* background: #968d81; */
-  color: var(--light-font);
-  background: var(--primary-color);
+  opacity: 0.8;
+  color: var(--primary-color);
+  border-bottom: var(--secondary-color) 2px solid;
 }
 
 #main-nav .social {

@@ -57,18 +57,18 @@ img {
   a {
     text-decoration: none;
     font-weight: bold;
-    color: $dark-color;
+    color: black;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
     transition: border-color 0.5s;
 
     &:hover {
-      border-color: $dark-color;
+      border-color: $main-color;
     }
 
     &.current {
-      border-color: $main-color;
+      border-color: $secondary-color;
     }
   }
 }
@@ -265,82 +265,42 @@ img {
   }
   // About C
   &-c {
-    .process {
+    .about-logos {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 1.5rem;
-      text-align: center;
-      background: lightgray;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 2rem;
 
-      // process-step
-      &-step {
-        position: absolute;
-        top: 0;
-        right: 0;
-        font-size: 28px;
-        background: $main-color;
-        color: set-text-color($main-color);
-        border-radius: 50%;
-        height: 15px;
-        width: 15px;
-        line-height: 15px;
-        padding: 1rem;
-        transition: all 1s;
-      }
-
-      // process-icon
-      &-icon {
-        border-radius: 50%;
-        background: $dark-color;
-        color: set-text-color($main-color);
-        padding: 2rem;
-        width: 70px;
-        height: 70px;
-        line-height: 70px;
-        text-align: center;
-        position: relative;
-        transition: all 1s;
-
-        &:hover {
-          background: $main-color;
-          width: 90px;
-          height: 90px;
-          line-height: 90px;
-
-          .process-step {
-            background: $dark-color;
-            color: set-text-color($dark-color);
-          }
-        }
+      img {
+        width: 70%;
       }
     }
   }
-}
-// About D
-&-d {
-  .testimonials {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0.5rem;
+  // About D
+  &-d {
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 0.5rem;
 
-    ul {
-      list-style: none;
-      margin-top: 1rem;
-      display: flex;
-      align-items: center;
-    }
+      ul {
+        list-style: none;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+      }
 
-    p {
-      border: 1px solid $medium-color;
-      border-radius: 5px;
-      padding: 0.5rem;
-    }
+      p {
+        border: 1px solid $medium-color;
+        border-radius: 5px;
+        padding: 0.5rem;
+      }
 
-    img {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      margin-right: 0.5rem;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+      }
     }
   }
 }
