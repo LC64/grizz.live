@@ -223,6 +223,15 @@ h6 {
   background: transparent;
 }
 
+#main-nav.top .social i {
+  color: black;
+}
+
+#main-nav.top ul li a {
+  background: transparent;
+  color: black;
+}
+
 #main-nav .logo {
   width: 150px;
 }
@@ -235,23 +244,23 @@ h6 {
 #main-nav ul li a {
   padding: 0.75rem;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 #main-nav ul li a.current {
   border-bottom: var(--primary-color) 2px solid;
-  color: black;
+  color: white;
 }
 
 #main-nav ul li a.current:hover {
   border-bottom: var(--secondary-color) 2px solid;
-  color: var(--primary-color);
+  color: #c72727;
   opacity: 0.8;
 }
 
 #main-nav ul li a:hover {
   opacity: 0.8;
-  color: var(--primary-color);
+  color: #c72727;
   border-bottom: var(--secondary-color) 2px solid;
 }
 
@@ -260,7 +269,7 @@ h6 {
 }
 
 #main-nav .social i {
-  color: black;
+  color: #f4f4f4;
   margin-right: 0.5rem;
 }
 
