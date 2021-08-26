@@ -14,7 +14,7 @@
 }
 
 #main-nav ul li a {
- padding: .35rem;
+  padding: 0.8rem;
 }
 
 #home-articles .articles-container {
@@ -27,7 +27,7 @@
   grid-column: 1;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   /* Stack Grid Items */
   #showcase .showcase-container,
   #home-articles .articles-container,
@@ -40,7 +40,7 @@
   }
 
   #main-footer .footer-container > *:first-child,
-  #main-footer .footer-container > *:nth-child(2){
+  #main-footer .footer-container > *:nth-child(2) {
     border-bottom: #444 dotted 1px;
     padding-bottom: 1rem;
   }
@@ -51,7 +51,7 @@
   }
 
   .page-container > *:first-child {
-   grid-row: 1;
+    grid-row: 1;
   }
 
   .l-heading {

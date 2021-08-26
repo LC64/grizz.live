@@ -68,8 +68,7 @@ img {
 }
 
 .navbar a.current:hover {
-  color: #333;
-  opacity: 0.9;
+  color: white;
 }
 
 .navbar ul {

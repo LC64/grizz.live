@@ -299,10 +299,15 @@ img {
 
 #main-nav a:hover {
   border-color: #ffbc00;
+  color: white;
 }
 
 #main-nav a.current {
   border-color: #c44b4b;
+}
+
+#main-nav a.current:hover {
+  border-color: #ffbc00 !important;
 }
 
 #header-home {
@@ -645,7 +650,7 @@ img {
             align-items: center;
   }
   #main-nav li {
-    padding: 1rem;
+    padding: 0.8rem;
   }
   #main-nav li a {
     color: #f4f4f4;

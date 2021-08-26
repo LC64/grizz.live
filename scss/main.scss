@@ -65,10 +65,15 @@ img {
 
     &:hover {
       border-color: $main-color;
+      color: white;
     }
 
     &.current {
       border-color: $secondary-color;
+    }
+
+    &.current:hover {
+      border-color: $main-color !important;
     }
   }
 }
