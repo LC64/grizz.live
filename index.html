@@ -6,292 +6,188 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Lato|Staatliches"
+      href="https://fonts.googleapis.com/css?family=Dosis"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width: 768px)"
-      href="/css/mobile.css"
-    />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-
-    <title>GrizzGrid | Latest News</title>
+    <link rel="stylesheet" href="../scss/main.css" />
+    <title>Grizz | a Dog</title>
   </head>
   <body>
-    <nav id="main-nav" class="main-nav top">
+    <!-- Header -->
+    <header id="header-home">
       <div class="container">
-        <img
-          src="/img/dog/glive.3balls.alttext.png"
-          alt="GrizzGrid"
-          class="logo"
-        />
-        <div class="social">
-          <a href="http://facebook.com" target="_blank"
-            ><i class="fab fa-facebook fa-2x"></i
-          ></a>
-          <a href="http://twitter.com" target="_blank"
-            ><i class="fab fa-twitter fa-2x"></i
-          ></a>
-          <a href="http://instagram.com" target="_blank"
-            ><i class="fab fa-instagram fa-2x"></i
-          ></a>
-          <a href="http://youtube.com" target="_blank"
-            ><i class="fab fa-youtube fa-2x"></i
-          ></a>
-        </div>
-        <ul>
-          <li><a href="/index.html" class="current">Home</a></li>
-          <li><a href="/grid_about.html">About</a></li>
-          <li><a href="/GrizzLedger/ledger-index.html">Ledger</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Showcase -->
-    <header id="showcase">
-      <div class="container">
-        <div class="showcase-container">
-          <div class="showcase-content">
-            <div class="category category-sports">Sports</div>
-            <h1>Grizz Sores</h1>
-            <p>
-              Grizz flys through the air as he attempts to catch a dog toy at
-              Galveston Beach.
-            </p>
-            <a href="/grid_article.html" class="btn btn-primary">Read More</a>
-          </div>
+        <nav id="main-nav">
+          <img
+            src="/dist/img/dog/glive.3balls.alttext.png"
+            alt="My Portfolio"
+            id="logo"
+          />
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">More</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-content">
+          <h1>
+            I am Grizz
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["I am a Dog", "I am a Good Boy", "I am a Human?"]'
+            ></span>
+          </h1>
+          <p class="lead"></p>
+          <a href="work.html" class="btn-light">View My Work</a>
         </div>
       </div>
     </header>
 
-    <!-- Home Articles -->
-    <section id="home-articles" class="py-2">
+    <!-- Section A: Specialize -->
+    <section id="home-a" class="text-center py-2">
       <div class="container">
-        <h2>Editor Picks</h2>
-        <div class="articles-container">
-          <article class="card">
-            <img src="img/dog/dog_red_carpet.png" alt="" />
-            <div>
-              <div class="category category-ent">Entertainment</div>
-              <h3>
-                <a href="grid_article.html">Air Bud?</a>
-              </h3>
-              <p>
-                Is this dog on the red carpet Air Bud? We can't be sure as a lot
-                of dogs of the same breed look very similar, but it's gotta be
-                him right? What other golden retriever is taking red carpet
-                photos? I guess Marley and Me? I don't know, but I hope it's Air
-                Bud. Air Bud is amazing.
-              </p>
-            </div>
-          </article>
-          <article class="card bg-dark">
-            <div class="category category-sports">Sports</div>
-            <h3>
-              <a href="grid_article.html">Lorem ipsum dolor sit amet</a>
-            </h3>
+        <h2 class="section-title">I Specialize In</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Playing Fetch</p>
+        <div class="specials">
+          <div>
+            <i class="fas fa-baseball-ball fa-2x"></i>
+            <h3>Ball</h3>
+            <p>Grizz will get the ball</p>
+          </div>
+          <div>
+            <i class="fas fa-circle fa-2x"></i>
+            <h3>Frisbee</h3>
+            <p>Grizz will get the frisbee</p>
+          </div>
+          <div>
+            <i class="fas fa-tree fa-2x"></i>
+            <h3>Stick</h3>
+            <p>Grizz will get the stick</p>
+          </div>
+          <div>
+            <i class="fas fa-thumbs-up fa-2x"></i>
+            <h3>Random thrown object</h3>
+            <p>Grizz will attempt to get anything you throw</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section B: Stats -->
+    <section id="home-b" class="text-center py-2">
+      <div class="stats">
+        <div>
+          <ul>
+            <li><i class="fas fa-users fa-3x"></i></li>
+            <li class="stats-title">Clients</li>
+            <li class="stats-number">2+</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-award fa-3x"></i></li>
+            <li class="stats-title">Awards</li>
+            <li class="stats-number">3</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-hourglass-start fa-3x"></i></li>
+            <li class="stats-title">Hours Worked</li>
+            <li class="stats-number">96360</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-code-branch fa-3x"></i></li>
+            <li class="stats-title">Total Fetched</li>
+            <li class="stats-number">Incalculable</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section C: Process -->
+    <section id="home-c" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">My Process</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Not unlike most dogs, Grizz has a simple technique when it comes to
+          fetch. When the ball is thrown he will attempt to retrieve it as fast
+          as possible. His determination is what makes him exceptional.
+        </p>
+        <div class="process">
+          <div>
+            <i class="fas fa-baseball-ball fa-4x process-icon my-2">
+              <div class="process-step">1</div>
+            </i>
+            <h3>Finds the ball</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              quam eius ducimus optio veniam sit nihil beatae ea autem.
-              Doloribus.
+              Grizz almost constantly keeps an eye out for a ball or another
+              suitable object that can be used for fetch.
             </p>
-          </article>
-          <article class="card">
-            <img src="img/dog/dog_vr.png" alt="" />
-            <div class="category category-tech">Technology</div>
-            <h3>
-              <a href="grid_article.html">VR for DOGS?</a>
-            </h3>
+          </div>
+          <div>
+            <i class="fas fa-user fa-4x process-icon my-2">
+              <div class="process-step">2</div>
+            </i>
+            <h3>Brings the ball to you</h3>
             <p>
-              Probably not. I think dogs eyes and brains process images
-              differently so VR headsets probably don't work for them. This dog
-              looks like he's enjoying it though, and that's pretty cool if you
-              ask me. Wait, is <em>this</em> Air Bud?
+              Whether prompted or not, Grizz will bring you the ball. Day or
+              night, rain or shine, Grizz is <strong>always</strong> ready to
+              play.
             </p>
-          </article>
-          <article class="card">
-            <div class="category category-sports">Sports</div>
-            <h3>
-              <a href="grid_article.html">AIR BUD!</a>
-            </h3>
+          </div>
+          <div>
+            <i class="fas fa-dog fa-4x process-icon my-2">
+              <div class="process-step">3</div>
+            </i>
+            <h3>Waits for you to throw the ball</h3>
             <p>
-              Okay, now this is definitely Air Bud! I mean C'MON! Do
-              <em>you</em> know any other dogs out there doing this kind of
-              stuff? Yeah, that's Air Bud alright. Haha! <em>THE</em> Air Bud!
-              Wow, what a dog.
+              Grizz will wait as long as it takes for the game to begin. If
+              another client presents themselves Grizz may take his ball to
+              them, but rest asured he will at some point return to you, ready
+              to play.
             </p>
-            <a
-              href="img/dog/football-dog.png"
-              data-lightbox="home-articles"
-              data-title="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, eum!"
-            >
-              <img src="img/dog/football-dog.png" alt="" />
-            </a>
-          </article>
-          <article class="card">
-            <a
-              href="img/dog/robot_dog.png"
-              data-lightbox="home-articles"
-              data-title="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, eum!"
-            >
-              <img src="img/dog/robot_dog.png" alt="" />
-            </a>
-            <div class="category category-tech">Technology</div>
-            <h3>
-              <a href="grid_article.html">Dog Bots?</a>
-            </h3>
+          </div>
+          <div>
+            <i class="fas fa-thumbs-up fa-4x process-icon my-2">
+              <div class="process-step">4</div>
+            </i>
+            <h3>Gets the ball</h3>
             <p>
-              I've seen an episode of Black Mirror with these things and they
-              are fuuuuuuuucking terrifying. Shew, let's hope these don't
-              replace real dogs some day. That would fucking suck.
+              If you do decide to throw the ball, Grizz will
+              <strong>absolutely</strong> go get the ball and he will bring it
+              back. As far as Grizz is concerned you have entered a binding
+              contract to continue this process for as long as he desires.
             </p>
-          </article>
-          <article class="card bg-primary">
-            <div class="category category-sports">Sports</div>
-            <h3>
-              <a href="grid_article.html">Lorem ipsum dolor sit amet</a>
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              quam eius ducimus optio veniam sit nihil beatae ea autem.
-              Doloribus.
-            </p>
-          </article>
-          <article class="card">
-            <div>
-              <div class="category category-ent">Entertainment</div>
-              <h3>
-                <a href="grid_article.html">dogs, the bounty hunters!</a>
-              </h3>
-              <p>
-                Paper towels are great, but you know what's not so great?
-                Running out of paper towels and having to go get more. Well
-                don't worry, because these dogs have got it covered.
-              </p>
-            </div>
-            <a
-              href="img/dog/real-dogthebountyhunter.png"
-              data-lightbox="home-articles"
-              data-title="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, eum!"
-            >
-              <img src="img/dog/dogs_the_bounty_hunters_with_logo.png" alt="" />
-            </a>
-          </article>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer id="main-footer" class="py-2">
-      <div class="container footer-container">
-        <div>
-          <img src="img/dog/grizzGridlogo_Light.png" alt="GrizzGrid" />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
-            assumenda tempora dolores ipsam exercitationem harum?
-          </p>
-        </div>
-        <div>
-          <h3>Email Newsletter</h3>
-          <p>Sign up now!</p>
-          <form
-            action="/grid_success_subscribe.html"
-            name="subscribe-newsletter"
-            method="POST"
-            data-netlify="true"
-          >
-            <input type="email" name="email" placeholder="Enter Email" />
-            <input type="submit" value="Subscribe" class="btn btn-primary" />
-          </form>
-        </div>
-        <div>
-          <h3>Site Links</h3>
-          <ul class="list">
-            <li>
-              <a href="https://suicidepreventionlifeline.org/"
-                >Help & Support</a
-              >
-            </li>
-            <li>
-              <a href="https://pbs.twimg.com/media/CXlXGRnUoAIDX-2.jpg:large"
-                >Privacy & Policy</a
-              >
-            </li>
-            <li><a href="../timeline/index.html">About Us</a></li>
-            <li><a href="grid_contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>GrizzLedger</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
-            ducimus?
-          </p>
-          <a href="../GrizzLedger/ledger-index.html" class="btn btn-secondary"
-            >Go Now</a
-          >
-        </div>
-        <div>
-          <p>Copyright 2021 &copy; All Rights Reserved</p>
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2021. All Rights Reserved</p>
+        <div class="social">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
         </div>
       </div>
     </footer>
 
-    <!-- <script
-      src="https://code.jquery.com/jquery-3.5.0.min.js"
-      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
-      crossorigin="anonymous"
-    ></script> -->
-
-    <!-- <script src="js/lightbox.min.js"></script>  -->
-    <!-- for some reason this seems to mess with my netlify form submit on the same page -->
-
-    <script>
-      const navbar = document.getElementById("main-nav");
-      let scrolled = false;
-
-      window.onscroll = function () {
-        if (window.pageYOffset > 100) {
-          navbar.classList.remove("top");
-          if (!scrolled) {
-            navbar.style.transform = "translateY(-70px)";
-          }
-          setTimeout(function () {
-            navbar.style.transform = "translateY(0)";
-            scrolled = true;
-          }, 200);
-        } else {
-          navbar.classList.add("top");
-          scrolled = false;
-        }
-      };
-
-      // Smooth Scrolling
-      $("#navbar a, .btn").on("click", function (e) {
-        if (this.hash !== "") {
-          e.preventDefault();
-
-          const hash = this.hash;
-
-          $("html, body").animate(
-            {
-              scrollTop: $(hash).offset().top - 100,
-            },
-            800
-          );
-        }
-      });
-    </script>
+    <!-- Type Effect Tutorial: https://www.youtube.com/watch?v=POX3dT-pB4E -->
+    <script src="js/typewriter.js"></script>
   </body>
 </html>
