@@ -54,13 +54,22 @@ img {
 }
 
 .navbar a:hover {
-  border-bottom: #c44b4b 2px solid;
+  border-bottom: #f5a226 2px solid;
 }
 
 .navbar a {
   color: #fdf6ee;
   padding: 10px 20px;
   margin: 0 5px;
+}
+
+.navbar a.current {
+  border-bottom: #c44b4b 2px solid;
+}
+
+.navbar a.current:hover {
+  color: #333;
+  opacity: 0.9;
 }
 
 .navbar ul {
