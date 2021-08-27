@@ -1,10 +1,10 @@
 :root {
   --primary-color: #c44b4b;
   --secondary-color: #f5a226;
-  --light-color: #b9a589;
+  --light-color: #dee1e9;
   --dark-color: #333;
   --max-width: 1100px;
-  --light-font: #fdf6ee;
+  --light-font: #fdfdfd;
 }
 
 .category {
@@ -118,7 +118,7 @@ h6 {
 }
 
 .card {
-  background: #faebd7;
+  background: #f4f4f4;
   padding: 1rem;
   border-radius: 15px;
 }
@@ -208,7 +208,7 @@ h6 {
   position: sticky;
   top: 0;
   z-index: 2;
-  background: rgba(114, 99, 80, 0.8);
+  background: rgba(109, 109, 109, 0.8);
   transition: 0.5s ease-in;
 }
 
@@ -249,7 +249,6 @@ h6 {
 
 #main-nav ul li a.current {
   border-bottom: var(--primary-color) 2px solid;
-  color: white;
 }
 
 #main-nav ul li a.current:hover {

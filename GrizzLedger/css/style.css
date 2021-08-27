@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+:root {
+  --primary-color: #c44b4b;
+  --secondary-color: #ffb03a;
+  --light-color: #dee1e9;
+  --dark-color: #333;
+  --max-width: 1100px;
+  --light-font: #fdfdfd;
+}
 
 * {
   box-sizing: border-box;
@@ -8,7 +16,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #cfbea5;
+  background: var(--light-color);
   color: #333;
   line-height: 1.6;
 }
@@ -42,7 +50,7 @@ img {
   align-items: center;
   justify-content: space-between;
   background-color: #333;
-  color: #fdf6ee;
+  color: var(--light-color);
   opacity: 0.8;
   width: 100%;
   /* this is common height for a navbar */
@@ -54,17 +62,17 @@ img {
 }
 
 .navbar a:hover {
-  border-bottom: #f5a226 2px solid;
+  border-bottom: var(--secondary-color) 2px solid;
 }
 
 .navbar a {
-  color: #fdf6ee;
+  color: white;
   padding: 10px 20px;
   margin: 0 5px;
 }
 
 .navbar a.current {
-  border-bottom: #c44b4b 2px solid;
+  border-bottom: var(--primary-color) 2px solid;
 }
 
 .navbar a.current:hover {
@@ -89,7 +97,7 @@ img {
   text-align: center;
   padding: 0.5rem;
   background-color: #333;
-  color: #f4f4f4;
+  color: var(--light-color);
 }
 
 /* Header */
@@ -97,7 +105,7 @@ img {
   background: url("../images/dog/grizz.wet.jpg") no-repeat center center/cover;
   height: 100vh;
   position: relative;
-  color: #f4f4f4;
+  color: white;
 }
 
 .hero .content {
@@ -142,7 +150,7 @@ img {
 /* Icons */
 .icons {
   padding: 30px;
-  background-color: #cfbea5;
+  background-color: var(--light-color) !important;
 }
 
 .icons h3 {
@@ -151,8 +159,8 @@ img {
 }
 
 .icons i {
-  background-color: #c44b4b;
-  color: #fff;
+  background-color: var(--secondary-color);
+  color: #333;
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 15px;
@@ -215,11 +223,11 @@ img {
   width: 100%;
   padding: 4px;
   height: 40px;
-  border: #fdf6ee 1px solid;
+  border: var(--light-color) 1px solid;
 }
 
 .callback-form input:focus {
-  outline-color: #c44b4b;
+  outline-color: var(--primary-color);
 }
 
 .callback-form btn {
@@ -259,15 +267,15 @@ img {
   justify-content: center;
   text-align: center;
   height: 200px;
-  color: #cfbea5 !important;
+  color: var(--light-color) !important;
 }
 
 .footer a {
-  color: #cfbea5;
+  color: var(--light-color);
 }
 
 .footer a:hover {
-  color: #f5a226;
+  color: var(--secondary-color);
 }
 
 .footer .social > * {
@@ -301,7 +309,7 @@ img {
     background: url("../images/dog/grizz.jpg") no-repeat center center/cover;
     height: 100vh;
     position: relative;
-    color: #fdf6ee;
+    color: var(--light-color);
   }
 
   #team {

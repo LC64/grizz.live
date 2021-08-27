@@ -11,7 +11,7 @@
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
-  background: rgba(255, 255, 255, 0.938);
+  background: #dee1e9;
 }
 
 a {
@@ -183,7 +183,7 @@ img {
       // process-icon
       &-icon {
         border-radius: 50%;
-        background: $dark-color;
+        background: $light-color;
         color: set-text-color($main-color);
         padding: 2rem;
         width: 70px;
