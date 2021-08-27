@@ -315,7 +315,8 @@ img {
   }
 
   .hero {
-    background: url("../images/dog/grizz.jpg") no-repeat center center/cover;
+    background: url("/img/dog/grizz.missed.small.png") no-repeat center
+      center/cover;
     height: 100vh;
     position: relative;
     color: var(--light-color);
