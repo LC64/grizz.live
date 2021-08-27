@@ -242,7 +242,7 @@ h6 {
 }
 
 #main-nav ul li a {
-  padding: 1rem;
+  padding: 0.8rem;
   font-weight: bold;
   color: white;
 }
@@ -270,6 +270,7 @@ h6 {
 #main-nav .social i {
   color: #f4f4f4;
   margin-right: 0.5rem;
+  font-size: 1.8rem;
 }
 
 #main-nav .social i:hover {
