@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Post Two</title>
+  </head>
+  <body id="home">
+    <header class="hero blog">
+      <div id="navbar" class="navbar top">
+        <h1 class="logo">
+          <span class="text-secondary"><i class="fas fa-paw"></i> grizz.</span
+          >live
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="/GrizzLedger/ledger-index.html">Back</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1>Blog</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="post">
+        <h2>Blog Post Two</h2>
+        <p class="meta">
+          <i class="fas fa-dog"></i> Posted by <strong>Apollo </strong> | July
+          19th
+        </p>
+        <img src="images/dog/apollo.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+          accusantium excepturi, dignissimos commodi dolorum nam similique,
+          autem deserunt odio natus voluptates eos amet quas nulla inventore
+          facilis beatae, fugiat enim?
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
+          tempora facilis voluptatem, enim reiciendis est tenetur repellendus
+          cupiditate saepe praesentium, beatae culpa et libero qui pariatur,
+          similique voluptatum! Repudiandae, sapiente eos ad voluptatibus iure,
+          quibusdam aliquam dignissimos veritatis officiis, quaerat aut animi
+          in. Sint enim illum, dolore ipsa deserunt veritatis quia adipisci
+          blanditiis, officia molestiae laborum sequi veniam! Ratione aut ut
+          sit, debitis quidem neque nulla facilis veniam iste reiciendis totam
+          qui alias sunt soluta. Obcaecati velit a consequatur deleniti.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+          accusantium excepturi, dignissimos commodi dolorum nam similique,
+          autem deserunt odio natus voluptates eos amet quas nulla inventore
+          facilis beatae, fugiat enim?
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
+          culpa dolore consectetur molestiae, facilis eos voluptatem quas
+          tempora cumque quaerat architecto adipisci. Quia eum perspiciatis
+          illum. Repellat, voluptates odio distinctio ab doloremque nihil
+          quisquam iure in rem modi ea unde?
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>Copyright &copy; 2020 -Grizzledger</p>
+    </footer>
+
+    <script>
+      const navbar = document.getElementById("navbar");
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+          if (!scrolled) {
+            navbar.style.transform = "translateY(-70px)";
+          }
+          setTimeout(function () {
+            navbar.style.transform = "translateY(0)";
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add("top");
+          scrolled = false;
+        }
+      };
+    </script>
+  </body>
+</html>

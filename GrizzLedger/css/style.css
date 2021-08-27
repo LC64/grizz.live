@@ -147,6 +147,15 @@ img {
   height: 30vh;
 }
 
+/* About */
+#about {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 6rem;
+}
+
 /* Icons */
 .icons {
   padding: 30px;
