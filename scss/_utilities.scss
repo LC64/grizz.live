@@ -32,6 +32,14 @@
     color: #f4f4f4;
     background-color: $dark-color;
   }
+
+  &-work {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $main-color;
+    padding: 2rem 2rem;
+    margin: 2rem 2rem;
+  }
 }
 
 button[class^="btn-"]:hover,

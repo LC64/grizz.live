@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 
-.btn-main, .btn-light, .btn-dark {
+.btn-main, .btn-light, .btn-dark, .btn-work {
   display: inline-block;
   padding: 0.8rem 2rem;
   -webkit-transition: all 0.5s;
@@ -27,6 +27,13 @@
 .btn-dark {
   color: #f4f4f4;
   background-color: #333;
+}
+
+.btn-work {
+  color: #333;
+  background-color: #f5a226;
+  padding: 2rem 2rem;
+  margin: 2rem 2rem;
 }
 
 button[class^="btn-"]:hover,
@@ -507,16 +514,17 @@ img {
   background: #f5a226;
 }
 
-#about-c .about-logos {
+#about-c .work {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
 
-#about-c .about-logos img {
-  width: 70%;
+#about-c .work img {
+  width: 30rem;
+  max-height: 20rem;
 }
 
 #about-d .testimonials {

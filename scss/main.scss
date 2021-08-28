@@ -288,14 +288,14 @@ img {
   }
   // About C
   &-c {
-    .about-logos {
+    .work {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-gap: 2rem;
-
-      img {
-        width: 70%;
-      }
+    }
+    .work img {
+      width: 30rem;
+      max-height: 20rem;
     }
   }
   // About D
