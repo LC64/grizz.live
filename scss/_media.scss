@@ -38,7 +38,11 @@
       height: 10rem;
     }
   }
-
+  #logo {
+    width: 150px;
+    color: #fff;
+    text-transform: uppercase;
+  }
   // Stack Grid Columns
   #home-a .specials,
   #home-b .stats,

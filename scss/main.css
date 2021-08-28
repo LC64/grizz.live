@@ -261,7 +261,7 @@ img {
 }
 
 #logo {
-  width: 150px;
+  width: 200px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -665,6 +665,11 @@ img {
   }
   #header-inner {
     height: 10rem;
+  }
+  #logo {
+    width: 150px;
+    color: #fff;
+    text-transform: uppercase;
   }
   #home-a .specials,
   #home-b .stats,
