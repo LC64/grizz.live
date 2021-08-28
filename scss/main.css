@@ -326,6 +326,22 @@ img {
   line-height: 1.2;
 }
 
+#header-work {
+  background: url("../dist/img/dog/grizz.ocean.jpg") no-repeat center/cover;
+  height: 20vh;
+  color: #fff;
+}
+
+#header-work .header-content {
+  text-align: center;
+  padding-top: 20%;
+}
+
+#header-work .header-content h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
 #header-inner {
   background: url("../dist/img/dog/grizz.ocean.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;

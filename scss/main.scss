@@ -98,6 +98,24 @@ img {
     }
   }
 
+  // Header Work
+  &-work {
+    background: $bg-image no-repeat center / cover;
+    height: 20vh;
+    color: #fff;
+
+    // Header Content
+    .header-content {
+      text-align: center;
+      padding-top: 20%;
+
+      h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+      }
+    }
+  }
+
   // Header Inner
   &-inner {
     background: $bg-image no-repeat 20% 30% / cover;
